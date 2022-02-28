@@ -1,0 +1,54 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "<div style='padding-bottom: 10px; font-size: 2em; font-weight: bold; line-height: 1.2em; text-align: center;'>Information:</div><p style='line-height: 1.35em; font-size: 17.5px'><b>This is an algorithmically generated map of Persian Twitch</b><ul style='font-size: 1.25em;margin-left: 15px; padding-bottom: 5px; line-height: 1.5em; font-size: 1.4em; list-style-type: circle;'><li>Generally, this map represents the behavior of viewers.</li><li>Each bubble is a Twitch channel.</li><li>Each edge represents the overlap of viewers between those two channels.</li><li>Different communities were detected with the Modularity algorithm using Gephi.</li></ul><br><p style='font-size: 17.5px; line-height: 1.35em;'><br>Different parts of this project was made using: <a href='https://gephi.org/'>Gephi</a>, <a href='http://sigmajs.org/'>SigmaJS</a> and <a href='https://dev.twitch.tv/docs/api/'>Twitch API</a>.</p><br>contact me at <a href='https://discord.com/users/500699685137154053'>discord</a></p>",
+    "intro": "Weekly Map of Persian Twitch Communities.",
+    "title": "Persian Twitch Map"
+  },
+  "legend": {
+    "edgeLabel": "Shared Chatters",
+    "colorLabel": "Similar Viewers",
+    "nodeLabel": "Streamer"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#FFFFFF",
+      "labelAlignemnt": "center",
+      "labelThreshold": 7,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 12.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 0.5,
+      "maxNodeSize": 30
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
