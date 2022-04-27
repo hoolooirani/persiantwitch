@@ -34,7 +34,7 @@
       "activeFontStyle": "bold",
       "defaultLabelColor": "#FFFFFF",
       "labelAlignemnt": "center",
-      "labelThreshold": 7,
+      "labelThreshold": 5,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
