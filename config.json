@@ -36,15 +36,15 @@
       "labelAlignemnt": "center",
       "labelThreshold": 6,
       "defaultLabelHoverColor": "#fff",
-      "fontStyle": "bold",
+      "fontStyle": "default",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 13
     },
     "graphProperties": {
       "maxEdgeSize": 12.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 0.5,
-      "maxNodeSize": 30
+      "maxNodeSize": 40
     },
     "mouseProperties": {
       "maxRatio": 20,
